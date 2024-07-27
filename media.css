@@ -1,0 +1,228 @@
+@import url('../global/global_styles.css');
+
+@media (max-width: 1400px) { 
+    .contact_us
+    {
+        flex-wrap: wrap;
+    }
+    #btn-nav-1{
+        width: 84px !important;
+        height: 45px !important;
+    }
+    #btn-nav-2{
+        width: 84px !important;
+        height: 45px !important;
+    }
+    .left-header-content
+    {
+        flex-direction: column;
+    }
+    .navbar-nav {
+        display: flex;
+        flex-direction: column;
+        padding-left: 0px;
+        margin-bottom: 0;
+        list-style: none;
+        align-items: center;
+        margin-right: 51px;
+        gap: 65px;
+        margin-top: 106px;
+    }
+    .sub-menu-container3 {
+        position: absolute;
+        top: -62px;
+        right: 100px;
+        border-radius: 8px;
+        width: 164px;
+        height: 174px;
+        background-color: #E2E2E2;
+    }
+    .sub-menu-container1 {
+        position: absolute;
+        top: -62px;
+        right: 100px;
+        border-radius: 8px;
+        width: 164px;
+        height: 174px;
+        background-color: #E2E2E2;
+    }
+    .sub-menu-container2 {
+        position: absolute;
+        top: -62px;
+        right: 100px;
+        border-radius: 8px;
+        width: 164px;
+        height: 174px;
+        background-color: #E2E2E2;
+    }
+    .left-header-content{
+        display: flex;
+        gap: 65px; 
+        align-items: center;
+        margin-top: 65px;
+    }
+}
+
+@media (max-width: 600px) {
+    .navbar-brand img{
+    margin-left: 0px !important;
+    }
+}
+@media (min-width: 1500px)
+{
+  
+}
+
+
+@media (min-width: 200px) and (max-width :1350px) {
+    /* Styles for small devices */
+    :root
+    {
+        --tsfs-scale: 0.55 !important;
+    }
+    .main-page-section1 .row > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+ }
+.navigation_carousel_1{
+    position: relative;
+    left: -97%;
+}
+.send-button {
+  
+    width: 46px;
+  
+}
+.navigation_carousel_section4
+{
+    transform: translateX(12%);
+}
+.ts-fs-48{
+    font-size: medium !important;
+}
+#section7
+{
+    height: 1189px !important;
+}
+.section7_title {
+    width: 51% !important;
+}
+.section8_contact_info{
+    z-index: 2 !important;
+    position: absolute !important;
+    right: -89px !important;
+    top: -25% !important;
+    max-width: 173px !important;
+    width: inherit ;
+    transition: 1s ease-in-out;
+}
+}
+
+
+
+
+
+@media (min-width: 576px) {
+    /* Styles for small devices */
+    :root
+    {
+        --tsfs-scale: 0.65 !important;
+    }
+   
+    .main-page-section1 .row > div:nth-child(2){
+        display: flex;
+        justify-content: center;
+}
+.navigation_carousel_section4
+{
+    transform: translateX(12%);
+}
+.ts-fs-48{
+    font-size: medium !important;
+}
+#section7
+{
+    height: 1189px !important;
+}
+
+
+}
+
+
+
+
+@media (min-width: 768px) {
+    /* Styles for medium devices */
+    :root
+    {
+        --tsfs-scale: 0.75 !important;
+    }
+    .navigation_carousel_1{
+        position: relative;
+        left: -8% !important    ;
+    }
+    .send-button {
+        transition: 0.5s ease-in-out;
+        position: absolute;
+        left: 10px;
+        top: 50%;
+        transform: translateY(-50%);
+        height: 70px;
+        width: 184px;
+        border: none;
+        background-color: #F79321;
+        color: white;
+        padding: 0 10px;
+        border-radius: 4px;
+        cursor: pointer;
+    }
+    .navigation_carousel_section4
+{
+    transform: translateX(4%);
+}
+.ts-fs-48{
+    font-size: var(--tsfs-48) !important;
+}
+#section7
+{
+    height: 1189px !important;
+}
+
+.section7_title {
+    width: 25% !important;
+}
+}
+
+
+
+
+
+@media (min-width: 992px) {
+    /* Styles for large devices */
+    :root
+    {
+        --tsfs-scale: 0.85 !important;
+    }
+    #section7
+{
+    height: 1189px !important;
+}
+}
+
+
+
+
+
+@media (min-width: 1200px) {
+    /* Styles for extra large devices */
+    .navigation_carousel_section4
+{
+    transform: translateX(4%);
+}
+#section7
+{
+    height: 653px !important;
+}
+}
+
+
